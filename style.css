@@ -5,9 +5,52 @@
     --neutral-black:hsl(0, 0%, 7%);
 
 }
-@import url('https://fonts.google.com/specimen/Figtree');
+
 
 body{
     font-family: 'Figtree',sans-serif;
     font-size:16px;
+    background-color:var(--primary-yellow);
+    
+}
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    padding:28px;
+    border-radius:20px;
+    box-shadow: 10px 10px 0px var(--neutral-black);
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    width:100%;
+    border-radius: 10px;
+}
+.tag, h1{
+    font-weight: 800;
+}
+
+.tag{
+    background-color: var(--primary-yellow);
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+
+}
+.description{
+    color:var(--neutral-grey);
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
