@@ -13,12 +13,16 @@ body{
     background-color:var(--primary-yellow);
     
 }
+
 main{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 section{
     background-color: white;
     width: 384px;
@@ -27,30 +31,55 @@ section{
     border-radius:20px;
     box-shadow: 10px 10px 0px var(--neutral-black);
 }
+
 div{
     display: flex;
     align-items: center;
 }
+
 .hero{
     width:100%;
     border-radius: 10px;
+    padding-bottom: 24px;
 }
+
 .tag, h1{
     font-weight: 800;
+    
 }
 
 .tag{
     background-color: var(--primary-yellow);
     padding: 4px 12px 4px 12px;
     border-radius: 4px;
+    padding-bottom: 4px;
 
 }
+
+h1{
+    padding-bottom: 10px;
+}
+
+h1:hover{
+    color: var(--primary-yellow);
+    cursor: pointer;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    padding-right: 10px;
+}
+
 .description{
     color:var(--neutral-grey);
+    padding-bottom: 10px;
 }
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
+
 .attribution a {
      color: hsl(228, 45%, 44%); 
 }
